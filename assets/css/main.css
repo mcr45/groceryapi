@@ -3310,7 +3310,15 @@ input, select, textarea {
 					}
 
 		}
-
+.spillo {
+margin-top:4rem ;
+	
+}
+.search{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 /* Wrapper */
 
 	#wrapper > * > .inner {

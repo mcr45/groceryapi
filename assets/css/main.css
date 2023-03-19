@@ -3314,6 +3314,7 @@ input, select, textarea {
 margin-top:4rem ;
 	
 }
+.spillo:hover{background-color: crimson;}
 .search{
 	display: flex;
 	flex-direction: column;

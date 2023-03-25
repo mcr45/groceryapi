@@ -215,9 +215,13 @@ function getFetch(){
 }
 
  function getDetail(event){
+/* localStorage.clear() */	
 let ins=event.target.id
 let urs=`https://api.spoonacular.com/food/products/${ins}`
-sessionStorage.setItem=(`link`,urs)
+console.log(urs)
+let b = ins.toString()
+sessionStorage.setItem(`link`,b)
+console.log(sessionStorage.getItem('link'))
 
 
 } 

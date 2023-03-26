@@ -204,7 +204,7 @@ function getFetch(){
         //posso mettere link alla pagina tipo generichtml parentesi id
         //aggiungo event listener che setta localstorstorage variable che usero in generichtml o wathever
         document.querySelector(`.portamivia-${i}`).addEventListener('click',getDetail)
-
+/* metto vias per differenziare */
           
         });
         

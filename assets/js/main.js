@@ -204,7 +204,7 @@ function getFetch(){
         //posso mettere link alla pagina tipo generichtml parentesi id
         //aggiungo event listener che setta localstorstorage variable che usero in generichtml o wathever
         document.querySelector(`.portamivia-${i}`).addEventListener('click',getDetail)
-/* metto vias per differenziare */
+
           
         });
         
@@ -217,11 +217,13 @@ function getFetch(){
  function getDetail(event){
 /* localStorage.clear() */	
 let ins=event.target.id
-let urs=`https://api.spoonacular.com/food/products/${ins}`
+let urs=`https://api.spoonacular.com/food/products/${ins}` + '?apiKey=4e35b7b843f549b4b8ba014950f4dbc7'
 console.log(urs)
 let b = ins.toString()
 sessionStorage.setItem(`link`,b)
 console.log(sessionStorage.getItem('link'))
+
+
 
 
 } 
